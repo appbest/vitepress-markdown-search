@@ -1,0 +1,62 @@
+// 图标
+.code-btn {
+  width: 1.2rem;
+  height: 1.2rem;
+  font-style: normal;
+  display: inline-block;
+
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.2rem;
+
+  &-do {
+    background: #43bb88;
+    color: #fff;
+  }
+
+  &-undo {
+    background: #ffa000;
+    color: #fff;
+  }
+}
+
+// 动态组件
+.lib-code-run {
+  margin-top: 1rem;
+
+  .tools {
+    position: relative;
+    margin-bottom: -1rem;
+    z-index: 2;
+    text-align: right;
+
+    .code-btn {
+      margin: 0 0.2rem;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 400;
+    }
+  }
+  // 可编辑窗口
+  .edit {
+    border: 0.15rem solid #ffa000;
+    border-radius: 0.5rem;
+    background-color: rgb(40, 44, 52);
+  }
+
+  // 代码组件
+  .code {
+    z-index: 0;
+    overflow: auto;
+  }
+
+  // 组件错误
+  .model-error {
+    font-size: 0.7rem;
+  }
+
+  // 消息返回
+  .model-resp {
+    margin: 0.2rem 1rem;
+  }
+}

@@ -1,0 +1,12 @@
+.*
+*.md
+*.yml
+build/
+node_modules/
+src/
+packages/
+example/
+docs/
+.vitepress/
+index.md
+rollup.config.js

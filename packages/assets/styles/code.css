@@ -1,0 +1,47 @@
+.code-btn {
+  width: 1.2rem;
+  height: 1.2rem;
+  font-style: normal;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.2rem;
+}
+.code-btn-do {
+  background: #43bb88;
+  color: #fff;
+}
+.code-btn-undo {
+  background: #ffa000;
+  color: #fff;
+}
+.lib-code-run {
+  margin-top: 1rem;
+}
+.lib-code-run .tools {
+  position: relative;
+  margin-bottom: -1rem;
+  z-index: 2;
+  text-align: right;
+}
+.lib-code-run .tools .code-btn {
+  margin: 0 0.2rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.lib-code-run .edit {
+  border: 0.15rem solid #ffa000;
+  border-radius: 0.5rem;
+  background-color: #282c34;
+}
+.lib-code-run .code {
+  z-index: 0;
+  overflow: auto;
+}
+.lib-code-run .model-error {
+  font-size: 0.7rem;
+}
+.lib-code-run .model-resp {
+  margin: 0.2rem 1rem;
+}
